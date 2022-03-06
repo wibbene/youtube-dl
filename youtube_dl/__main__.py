@@ -6,6 +6,7 @@ from __future__ import unicode_literals
 # $ python -m youtube_dl          (2.7+)
 
 import sys
+import os
 
 if __package__ is None and not hasattr(sys, 'frozen'):
     # direct call of __main__.py
